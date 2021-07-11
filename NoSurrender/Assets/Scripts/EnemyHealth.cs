@@ -25,14 +25,4 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject);
         player.blastCharge += 0.1f;     //Þarjýn düþman ölümü ile artmasý
     }
-
-    //private void OnDestroy()
-    //{
-    //    player.blastCharge += 0.1f;     //Þarjýn düþman ölümü ile artmasý
-    //}
-
-    //private void OnDisable()
-    //{
-    //    player.blastCharge += 0.1f;     //Þarjýn düþman ölümü ile artmasý
-    //}
 }
